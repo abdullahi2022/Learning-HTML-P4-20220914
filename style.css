@@ -1,3 +1,25 @@
 a {font-size:3vw;}
 div {border: thin dotted red;}
 div {border: thin dotted rgb(0, 255, 4);}
+
+
+<style>
+* {
+    box-sizing: border-box;
+    font-size:2vw;
+}
+
+div {border: thin dotted red;}
+
+.header {
+    border: 1px solid green;
+    padding: 15px;
+}
+
+.menu {}
+.main {}
+.aside {}
+.footer {}
+</style>
+
+class="header" 
