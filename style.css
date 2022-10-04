@@ -4,22 +4,39 @@ div {border: thin dotted rgb(0, 255, 4);}
 
 
 <style>
-* {
-    box-sizing: border-box;
-    font-size:2vw;
-}
+            * {
+                box-sizing: border-box;
+                font-size:2vw;
+            }
 
-div {border: thin dotted red;}
+            div {border: thin dotted red;}
 
-.header {
-    border: 1px solid green;
-    padding: 15px;
-}
+            .header {
+                border: 1px solid green;
+                padding: 15px;
+            }
 
-.menu {}
-.main {}
-.aside {}
-.footer {}
-</style>
+            .menu {
+                width: 25%;
+                float: left;
+                padding: 15px;
+                border: 1px solid blue;
+            }
 
-class="header" 
+            .main {
+                width: 50%;
+                float: left;
+                padding: 15px;
+                border: 1px solid blue;
+            }
+
+            .aside {
+                width: 25%;
+                float: left;
+                padding: 15px;
+                border: 1px solid blue;
+            }
+
+            .footer {}
+
+        </style>
